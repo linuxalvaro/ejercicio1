@@ -1,0 +1,30 @@
+/*div {
+    border-style: solid;
+    border-color: hotpink;
+}*/
+#contenido {
+    width: 60%;
+    margin: auto;
+}
+.preguntas {
+    color:darkblue;
+    font-size: large;
+
+}
+h1 {
+    text-align: center;
+}
+body {
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+input:invalid {
+    border: 2px dashed red;
+}
+input:invalid:required {
+    background-image: linear-gradient(to right, pink, lightgreen);
+}
+  
+input:valid {
+    border: 2px solid black;
+}

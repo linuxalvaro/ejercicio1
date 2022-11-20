@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' lang='es'>
+  <head>
+    <meta charset='utf-8' />
+    <title>Ejercicio 1.1</title>
+    <link rel="stylesheet" href="../general.css">
+  </head>
+
+  <body>
+    <div id="formulario">
+        <h1>Informe de salud</h1>
+  <form action="calculosalud.php" method="post">
+    <input type="number" name="peso" id="peso" placeholder="Peso (kg)" required="true"><br><br>
+    <input type="number" name="altura" id="altura" placeholder="Altura (cm)" required="true" min="100"><br><br>
+    <input type="number" name="edad" id="edad" placeholder="Edad" required="true"><br><br>
+    <input type="radio" id="hombre" name="sexo" value="1" required="true"/>
+    <label for="mujer">Hombre</label>
+
+    <input type="radio" id="mujer" name="sexo" value="2" required="true"/>
+    <label for="mujer">Mujer</label>
+    <br><br>
+    <input type="submit" name="enviar" id="enviar" value="Calcular">
+  </form>
+</div>
+  </body>
+  
+</html>

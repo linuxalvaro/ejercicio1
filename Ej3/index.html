@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' lang='es'>
+  <head>
+    <meta charset='utf-8' />
+    <title>Ejercicio 1.1</title>
+    <link rel="stylesheet" href="../general.css">
+  </head>
+
+  <body>
+    <div id="formulario" class="contenido">
+        <h1>Formulario</h1>
+        <p><small> Introduzca los datos y pulse enviar </small></p>
+        <form action="usuario.php" method="post">
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre" size="50" required>
+            <br><br>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos" size="50" required="true">
+            <br><br>
+            <input type="email" name="correo" id="correo" placeholder="Email" size="50" required="true">
+            <br><br>
+            <input type="tel" name="telefono" id="telefono" placeholder="Teléfono (opcional)" size="50">
+            <br><br>
+            <input type="text" name="web" id="web" placeholder="Sitio web (opcional)" size="50">
+            <br><br>
+            <textarea style="resize: none;" name="texto" id="texto" cols="65" rows="10" placeholder="Escriba aquí su comentario"></textarea>
+            <br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+  </body>
